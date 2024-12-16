@@ -2,11 +2,6 @@ import React from 'react';
 import NavLogoProduct from '../NavLogoProduct/NavLogoProduct';
 import NavListProduct from '../NavListproduct/NavListProduct';
 import NavIcons from '../NavIcons/NavIcons';
-// Delivery
-import { TbTruckDelivery } from "react-icons/tb";
-// close
-// import { IoCloseOutline } from "react-icons/io5";
-import { RiCloseLargeFill } from "react-icons/ri";
 
 
 

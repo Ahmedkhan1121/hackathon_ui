@@ -8,8 +8,8 @@ function CeramicsCard() {
      {
       newCeramics.map((e)=>{
         return(
-          <div>
-             <Image className='w-[305px] h-[375px]'
+          <div key={e.id}>
+             <Image  className='w-[305px] h-[375px]'
             src={e.imgUrl}
             alt='Ceramics Img'
             height={200}

@@ -1,5 +1,4 @@
 import React from 'react'
-import SelectBar from '../SelectBar/SelectBar'
 
 function ProductHero() {
   return (

@@ -1,6 +1,5 @@
 'use client'
 import React, { useState } from 'react'
-import { FaRegWindowMinimize } from "react-icons/fa";
 import { FiPlus } from "react-icons/fi";
 import { FaMinus } from "react-icons/fa6";
 

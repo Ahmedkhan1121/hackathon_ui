@@ -1,6 +1,6 @@
 import AboutGlobalBrand from '@/components/AboutGlobalBrand/AboutGlobalBrand'
 import BrandDifferent from '@/components/BrandDifferent/BrandDifferent'
-import GlobalBrand from '@/components/GlobalBrand/GlobalBrand'
+// import GlobalBrand from '@/components/GlobalBrand/GlobalBrand'
 import H2Cards from '@/components/H2Cards/H2Cards'
 import HeroAbout from '@/components/HeroAbout/HeroAbout'
 import SignUp from '@/components/SignUp/SignUp'

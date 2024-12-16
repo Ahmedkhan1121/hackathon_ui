@@ -9,7 +9,6 @@ import {
     TableRow,
   } from "@/components/ui/table"
 import ProductTable from '../ProductTable/ProductTable'
-import CountButton from '../CountButton/CountButton'
 import CartQuantity from '../CartQuantity/CartQuantity'
   
 function ShadTable() {

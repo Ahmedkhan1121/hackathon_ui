@@ -1,7 +1,6 @@
-import React from "react";
 import { Poppins } from 'next/font/google';
 
-import {AvionFooterListType, BrandDifferentCardType, FooterListType, NavListType, NewCeramicsType, OurPopularProductsType, productListType, SocialMediaIconType } from "@/type/List";
+import {AvionFooterListType, BrandDifferentCardType, FooterListType, NavListType, NewCeramicsType, OurPopularProductsType, productListType, } from "@/type/List";
 // import { CiLinkedin } from "react-icons/ci";
 // import { FaFacebookSquare } from "react-icons/fa";
 // import { FaInstagram } from "react-icons/fa6";
@@ -299,7 +298,7 @@ export const avionFooterList:AvionFooterListType[]=[
 
     //   productList
 
-export let productList:productListType[]=[
+export const productList:productListType[]=[
     {
         id:1,
         imgUrl:'/images/productList/842fec031ef0c247df24214e05b47e70.jpeg',

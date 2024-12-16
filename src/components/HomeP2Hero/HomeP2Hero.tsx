@@ -1,5 +1,4 @@
 import React from 'react'
-import HeroContent from '../HeroContent/HeroContent'
 import HeroContentHp2 from '../HeroContentHp2/HeroContentHp2'
 // import '../../styles/HeroP2.css'
 

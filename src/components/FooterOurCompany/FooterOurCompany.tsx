@@ -10,7 +10,7 @@ function FooterOurCompany() {
     <ul className='flex flex-col gap-3'>
       {
         ourCompanyFooterlist.map((e)=>{
-          return(<li className='text-white'>{e.list}</li>)
+          return(<li className='text-white' key={e.id}>{e.list}</li>)
         })
       }
     </ul>

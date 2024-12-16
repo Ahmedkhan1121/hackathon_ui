@@ -1,11 +1,11 @@
 'use client';
 import NavbarProduct from '../NavbarProduct/NavbarProduct'
-import { usePathname } from 'next/navigation'
+// import { usePathname } from 'next/navigation'
 
 function HeaderProduct() {
-  const  topBarPath  = usePathname()
+  // const  topBarPath  = usePathname()
   return (
-    <div className={` `}>
+    <div>
       <NavbarProduct/>
     </div>
   )

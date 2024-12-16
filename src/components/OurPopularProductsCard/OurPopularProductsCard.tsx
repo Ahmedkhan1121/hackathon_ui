@@ -8,10 +8,7 @@ function OurPopularProductsCard() {
     {
       ourPopularProducts.map((e)=>{
         return(
-
-        
-    
-            <div className='flex flex-col gap-3'>
+        <div key={e.id} className='flex flex-col gap-3'>
                 
                 {/* <Image className='w-[505px] h-[375px]'
                 src={`/images/Ourpopularproducts/b19dc98ccde98dc5e1e2fb1bd0dc3b72.jpeg`}
@@ -21,7 +18,7 @@ function OurPopularProductsCard() {
                 
                 /> */}
                 {/* w-[305px] */}
-             <Image className={`  h-[375px] `}
+             <Image  className={`  h-[375px] `}
              style={{width:e.with}}
             src={e.imgUrl}
             alt='Ceramics Img'
